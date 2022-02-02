@@ -94,11 +94,10 @@ h1 {
     margin-left: 50px;
     margin-top: 15px;
     color: rgb(0, 187, 236);
+    transition: 0.3s;
 
 
 }
-<<<<<<< HEAD
-=======
 .boton1:hover{
     background-color: aquamarine;
     transform: scale(1.2,1.2);
@@ -197,15 +196,15 @@ h1 {
     margin: 15px;
     line-height: 150px;
 }
-
-
-
-
+.caja1{
+    transform:rotate(10deg);
+}
 @media (max-width: 700px) {
     header {
-               background-color: darkblue;
+        background-color: darkblue;
     }
+}
 
 
 
-    
+
