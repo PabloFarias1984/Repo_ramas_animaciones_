@@ -191,9 +191,6 @@ h1 {
 }
 
 .caja {
-    rotate: (80deg);
-
-
     border: 4px solid rgb(0, 187, 236);
     text-align: center;
     background-color: sandybrown;
