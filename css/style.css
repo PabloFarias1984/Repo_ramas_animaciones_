@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+}
+header {
+    display: flex;
+    height: 70px;
+    background-color: aquamarine;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+main {
+    display: flex;
+    background-image: linear-gradient(to left, rgb(0, 255, 200), rgb(0, 81, 255));
+    width: 100%;
+    height: 700px;
+}
+.front {
+    background-color: rgb(0, 187, 236);
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+
+}
+footer {
+    display: flex;
+    background-color: rgb(25, 117, 255);
+    width: 100%;
+    height: 200px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+    justify-items: first baseline;
+}
+
+li {
+    display: inline-block;
+
+}
+a {
+    text-decoration: none;
+    }
+a:visited {
+    color: white;
+}
+a:hover {
+    color:lightskyblue;
+    
+}
+.logo {
+    padding: 25px 20px;
+    font-weight:100;
+}
+
+.menuItems {
+    padding: 25px 25px;
+    height: 70px;
+}
+
+.menu {
+    background-color:cornflowerblue;
+    
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    padding-left: 50px;
+    padding-top: 70px;
+    color: white;
+
+}
+
+.subMain {
+    padding-left: 50px;
+    width: 400px;
+    padding-top: 30px;
+    color: white;
+    font-weight: lighter;
+    line-height: 1rem;
+}
+
+.boton1 {
+    border: none;
+    padding: 12px 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: rgb(0, 187, 236);
+    transition: 0.3s;
+
+
+}
+.boton1:hover{
+    background-color: aquamarine;
+    transform: scale(1.2,1.2);
+    transform: rotate(5deg);
+}
+.boton2 {
+    border: none;
+    padding: 12px 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: rgb(0, 187, 236);
+    animation-name: agrandar;
+    animation-iteration-count:infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes agrandar{
+    from{
+        transform: scale(1.0)
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.boton3 {
+    border: none;
+    padding: 12px 40px;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: rgb(0, 187, 236);
+    animation-name: inscripcion;
+    animation-iteration-count:infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes inscripcion{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+.logo2 {
+    padding: 20px;
+}
+.acercaDe {
+    padding: 20px;
+    width: 30%;
+}
+
+.redes {
+    padding: 20px;
+}
+.copyright {
+    padding: 20px;
+    text-align: center;
+
+}
+.mapaStio {
+    padding: 20px;
+}
+.redes a {
+    text-decoration: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: seagreen;
+    height: 2500px;
+    column-gap: 0px;
+
+}
+
+.caja {
+    rotate: (80deg);
+
+
+    border: 4px solid rgb(0, 187, 236);
+    text-align: center;
+    background-color: sandybrown;
+    margin: 15px;
+    line-height: 150px;
+}
+.caja1{
+    transform:rotate(10deg);
+}
+@media (max-width: 700px) {
+    header {
+        background-color: darkblue;
+    }
+}
